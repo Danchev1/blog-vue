@@ -6,11 +6,24 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
+  linkActiveClass: "active",
   base: process.env.BASE_URL,
   routes: [
     {
       path: "/",
-      name: "blog",
+      name: "feed",
+      component: Blog
+    },
+    {
+      path: "/by/:author",
+      name: "author",
+      props: true,
+      component: Blog
+    },
+    {
+      path: "/read/:author",
+      name: "post",
+      props: true,
       component: Blog
     }
     // {
