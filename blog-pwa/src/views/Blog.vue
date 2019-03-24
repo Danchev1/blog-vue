@@ -1,17 +1,28 @@
 <template>
   <main class="blog" :class="{ 'blog--reading': this.post }">
-    <Header />
-    <h1>This is the blog feed</h1>
-    <Footer />
+    <header>
+      <Navigation :content="content" :filters="filters" :navs="navs" />
+    </header>
+    <NewsFeed />
+    <Footer></Footer>
   </main>
 </template>
 
 <script>
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import blogMock from "@/mockData/blog";
+import newsFeedMock from "@/mockData/feed";
+
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import NewsFeed from "@/components/NewsFeed";
 
 export default {
   name: "Blog",
+  components: {
+    NewsFeed,
+    Navigation,
+    Footer
+  },
   props: {
     post: {
       type: String
@@ -30,9 +41,21 @@ export default {
       }
     };
   },
-  components: {
-    Footer,
-    Header
+  computed: {
+    content() {
+      return { title: this.title, labels: this.labels };
+    },
+    filters() {
+      let filters = {};
+      if (this.post) filters.post = this.post;
+      if (this.author) filters.author = this.author;
+      return filters;
+    }
+  },
+  created() {
+    this.title = blogMock[0].title;
+    this.labels.post = blogMock[0].post_label;
+    this.labels.author = blogMock[0].author_label;
   }
 };
 </script>
