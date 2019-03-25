@@ -10,7 +10,7 @@
 
 <script>
 import blogMock from "@/mockData/blog";
-import newsFeedMock from "@/mockData/feed";
+/*import newsFeedMock from "@/mockData/feed";*/
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -51,10 +51,6 @@ export default {
       if (this.author) filters.author = this.author;
       return filters;
     }
-  },
-  beforeCreate() {
-    let self = this;
-    console.log(self);
   },
   created() {
     this.title = blogMock[0].title;
