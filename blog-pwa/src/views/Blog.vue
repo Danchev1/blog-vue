@@ -52,6 +52,10 @@ export default {
       return filters;
     }
   },
+  beforeCreate() {
+    let self = this;
+    console.log(self);
+  },
   created() {
     this.title = blogMock[0].title;
     this.labels.post = blogMock[0].post_label;
