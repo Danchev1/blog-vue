@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  name: "NewsFeed"
+  name: 'NewsFeed',
 };
 </script>
