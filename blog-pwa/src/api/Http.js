@@ -2,15 +2,13 @@
 
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import feed from '@/mockData/feed';
+import feedData from '@/mockData/feed';
 
 const axiosInstance = axios.create();
 const mock = new MockAdapter(axiosInstance, {
   delayResponse: 1000,
 });
 
-mock.onGet('/feed').reply(200, {
-  feed,
-});
+mock.onGet('/feed').reply(200, feedData);
 
-export default mock;
+export default axiosInstance;

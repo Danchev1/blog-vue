@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="976b3dd7-92fe-47be-be2a-7df0e6ebff14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/api/Http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" afterDir="false" />
-    </list>
+    <list default="true" id="976b3dd7-92fe-47be-be2a-7df0e6ebff14" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -96,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -108,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -332,7 +322,7 @@
       <workItem from="1553448340842" duration="7134000" />
       <workItem from="1553455949650" duration="2410000" />
       <workItem from="1553543654872" duration="110000" />
-      <workItem from="1557683988431" duration="5379000" />
+      <workItem from="1557683988431" duration="5500000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1552852715411</created>
@@ -369,15 +359,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557685028966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Set &amp; init axios and mockdata;&#10;- initial store setup;&#10;- Decide weather to use regular vuex pattern or trough router pattern">
+      <created>1557690167220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557690167220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20061000" />
+    <option name="totallyTimeSpent" value="20182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -390,13 +386,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32987553" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32157677" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32157677" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32987553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.30891332" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.30891332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +401,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="main components layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="main components layout" />
+    <MESSAGE value="- Set &amp; init axios and mockdata;&#10;- initial store setup;&#10;- Decide weather to use regular vuex pattern or trough router pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Set &amp; init axios and mockdata;&#10;- initial store setup;&#10;- Decide weather to use regular vuex pattern or trough router pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Header.vue" />
@@ -534,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-pwa/src/api/Http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -587,6 +577,13 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>

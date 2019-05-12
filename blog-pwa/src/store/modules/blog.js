@@ -15,7 +15,8 @@ const mutations = {
 
 const actions = {
   getFeed({ commit }) {
-    return Http.get('/').then((response) => {
+    return Http.get('/feed').then((response) => {
+      console.log(response);
       commit('setFeed', response.data);
     });
   },
