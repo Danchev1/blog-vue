@@ -9,9 +9,9 @@
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex';
 import blogMock from '@/mockData/blog';
 /* import newsFeedMock from "@/mockData/feed"; */
-
 import Navigation from '@/components/Navigation.vue';
 import Footer from '@/components/Footer.vue';
 import NewsFeed from '@/components/NewsFeed.vue';
@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       navs: 0,
-      title: '',
+      title: 'Blog',
       labels: {
         post: '',
         author: '',
@@ -42,6 +42,7 @@ export default {
     };
   },
   computed: {
+    ...mapState(['feed']),
     content() {
       return { title: this.title, labels: this.labels };
     },
@@ -52,7 +53,11 @@ export default {
       return filters;
     },
   },
+  methods: {
+    ...mapActions(['getFeed']),
+  },
   created() {
+    this.getFeed();
     this.title = blogMock[0].title;
     this.labels.post = blogMock[0].post_label;
     this.labels.author = blogMock[0].author_label;

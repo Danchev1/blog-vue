@@ -2,63 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="976b3dd7-92fe-47be-be2a-7df0e6ebff14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/cypress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/msapplication-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/img/icons/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/_app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/base/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/base/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/components/_navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_easing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_mediaqueries.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/components/Footer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/components/Navigation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/components/NewsFeed.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/mockData/blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/router/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/serviceWorker/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/store/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/e2e/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/e2e/plugins/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/e2e/specs/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/e2e/support/commands.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/e2e/support/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/unit/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-pwa/tests/unit/example.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/api/Http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,20 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Navigation.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+            <state relative-caret-position="91">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Footer.vue">
+        <entry file="file://$PROJECT_DIR$/blog-pwa/src/views/Blog.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="19">
+              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+              <folding>
+                <element signature="e#243#287#0" expanded="true" />
+                <element signature="e#334#387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,30 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-pwa/src/views/Blog.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#332#381#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,22 +67,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-pwa/src/serviceWorker/registerServiceWorker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-pwa/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="600">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,17 +81,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="72">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/NewsFeed.vue">
+        <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/feed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1352">
+              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-pwa/src/api/Http.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,18 +176,21 @@
         <option value="$PROJECT_DIR$/blog-pwa/src/assets/scss/helpers/_mediaqueries.scss" />
         <option value="$PROJECT_DIR$/blog-pwa/src/assets/scss/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/blog-pwa/src/assets/scss/_app.scss" />
-        <option value="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" />
-        <option value="$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js" />
-        <option value="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" />
-        <option value="$PROJECT_DIR$/blog-pwa/src/store/store.js" />
         <option value="$PROJECT_DIR$/blog-pwa/src/mockData/blog.js" />
         <option value="$PROJECT_DIR$/blog-pwa/src/components/NewsFeed.vue" />
         <option value="$PROJECT_DIR$/blog-pwa/src/components/Footer.vue" />
         <option value="$PROJECT_DIR$/blog-pwa/src/App.vue" />
         <option value="$PROJECT_DIR$/blog-pwa/src/serviceWorker/registerServiceWorker.js" />
         <option value="$PROJECT_DIR$/blog-pwa/src/main.js" />
-        <option value="$PROJECT_DIR$/blog-pwa/src/router/router.js" />
         <option value="$PROJECT_DIR$/blog-pwa/src/components/Navigation.vue" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/mockData/feed.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/router/router.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/views/Blog.vue" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/api/Http.js" />
+        <option value="$PROJECT_DIR$/blog-pwa/src/store/store.js" />
       </list>
     </option>
   </component>
@@ -271,6 +231,13 @@
               <item name="blog-vue" type="462c0819:PsiDirectoryNode" />
               <item name="blog-pwa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-pwa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +259,15 @@
               <item name="blog-vue" type="462c0819:PsiDirectoryNode" />
               <item name="blog-pwa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceWorker" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-pwa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog-vue" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +332,7 @@
       <workItem from="1553448340842" duration="7134000" />
       <workItem from="1553455949650" duration="2410000" />
       <workItem from="1553543654872" duration="110000" />
-      <workItem from="1557683988431" duration="981000" />
+      <workItem from="1557683988431" duration="5379000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1552852715411</created>
@@ -387,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553458312732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="main components layout">
+      <created>1557685028966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557685028966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15663000" />
+    <option name="totallyTimeSpent" value="20061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -490,47 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/feed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/api/HttpMockAdapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/views/Blog.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#332#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Footer.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -541,14 +482,7 @@
     <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/NewsFeed.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -562,6 +496,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="75" lean-forward="true" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Navigation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-pwa/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -572,17 +534,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/router/router.js">
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/modules/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="384">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-pwa/src/components/Navigation.vue">
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/api/Http.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        <state relative-caret-position="312">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/mockData/feed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/views/Blog.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding>
+            <element signature="e#243#287#0" expanded="true" />
+            <element signature="e#334#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-pwa/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
