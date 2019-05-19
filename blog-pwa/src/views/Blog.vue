@@ -1,7 +1,11 @@
 <template>
   <main class="blog" :class="{ 'blog--reading': this.post }">
     <header>
-      <Navigation :content="content" :filters="filters" :navs="navs" />
+      <Navigation
+        :content="content"
+        :filters="filters"
+        :navs="navs"
+      />
     </header>
     <NewsFeed />
     <Footer></Footer>
@@ -9,9 +13,6 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex';
-import blogMock from '@/mockData/blog';
-/* import newsFeedMock from "@/mockData/feed"; */
 import Navigation from '@/components/Navigation.vue';
 import Footer from '@/components/Footer.vue';
 import NewsFeed from '@/components/NewsFeed.vue';
@@ -34,33 +35,29 @@ export default {
   data() {
     return {
       navs: 0,
-      title: 'Blog',
-      labels: {
-        post: '',
-        author: '',
+      headerContent: {
+        title: 'Blog',
+        labels: {
+          post: 'Exit reading mode',
+          source: 'View all sources',
+        },
       },
     };
   },
   computed: {
-    ...mapState(['feed']),
     content() {
-      return { title: this.title, labels: this.labels };
+      return {
+        title: this.headerContent.title,
+        labels: this.headerContent.labels,
+      };
     },
     filters() {
       const filters = {};
       if (this.post) filters.post = this.post;
-      if (this.author) filters.author = this.author;
+      if (this.source) filters.source = this.source;
       return filters;
     },
   },
-  methods: {
-    ...mapActions(['getFeed']),
-  },
-  created() {
-    this.getFeed();
-    this.title = blogMock[0].title;
-    this.labels.post = blogMock[0].post_label;
-    this.labels.author = blogMock[0].author_label;
-  },
+
 };
 </script>
