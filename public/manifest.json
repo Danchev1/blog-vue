@@ -1,6 +1,6 @@
 {
-  "name": "blog-vue",
-  "short_name": "blog-vue",
+  "name": "blog-pwa",
+  "short_name": "blog-pwa",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
