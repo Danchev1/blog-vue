@@ -7,7 +7,7 @@
     >
       <figure class="preview__figure" :style="getBgImage(post.image)">
         <transition name="v--fade">
-          <figcaption class="preview__details">
+          <figcaption class="preview__details" v-if="!reading">
             <router-link
              class="preview__title"
              :to="`/read/${post.id}`"
@@ -44,9 +44,7 @@ export default {
   props: {
     filters: {
       type: Object,
-      default() {
-        return {};
-      },
+      default: () => {},
     },
   },
   data() {
@@ -56,6 +54,7 @@ export default {
     };
   },
   computed: {
+    reading() { return this.filters.post; },
     feed() {
       const filterBy = {
         post: (filter, { id }) => filter === id,

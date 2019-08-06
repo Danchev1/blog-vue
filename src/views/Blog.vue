@@ -7,7 +7,8 @@
         :navs="navs"
       />
     </header>
-    <NewsFeed />
+    <NewsFeed :filters="filters" />
+    <BlogPost v-if="post" :post="post" />
     <Footer></Footer>
   </main>
 </template>
@@ -16,10 +17,12 @@
 import Navigation from '@/components/Navigation.vue';
 import Footer from '@/components/Footer.vue';
 import NewsFeed from '@/components/NewsFeed.vue';
+import BlogPost from '@/components/BlogPost.vue';
 
 export default {
   name: 'Blog',
   components: {
+    BlogPost,
     NewsFeed,
     Navigation,
     Footer,
@@ -36,7 +39,7 @@ export default {
     return {
       navs: 0,
       headerContent: {
-        title: 'Blog',
+        title: 'Social Needs',
         labels: {
           post: 'Exit reading mode',
           source: 'View all sources',
