@@ -42,7 +42,7 @@ export default {
         title: 'Social Needs',
         labels: {
           post: 'Exit reading mode',
-          source: 'View all sources',
+          author: 'View all authors',
         },
       },
     };
