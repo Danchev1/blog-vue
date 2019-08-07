@@ -1,10 +1,7 @@
 <template>
   <transition-group tag="ul" :name="transition"  class="blog__feed">
-    <li
-      class="preview"
-      v-for="post in feed"
-      :key="post.id"
-    >
+    <li class="preview" v-for="post in feed" :key="post.id">
+
       <figure class="preview__figure" :style="getBgImage(post.image)">
         <transition name="v--fade">
           <figcaption class="preview__details" v-if="!reading">
@@ -31,6 +28,7 @@
           </figcaption>
         </transition>
       </figure>
+
     </li>
   </transition-group>
 </template>
@@ -73,9 +71,7 @@ export default {
     formatDate,
     scrollTo,
     getBgImage(src) {
-      return {
-        backgroundImage: `url(${src})`,
-      };
+      return { backgroundImage: `url(${src})` };
     },
     stackPosts(posts) {
       let interval;

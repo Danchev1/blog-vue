@@ -57,10 +57,15 @@ export default {
     filters() {
       const filters = {};
       if (this.post) filters.post = this.post;
-      if (this.source) filters.source = this.source;
+      if (this.author) filters.author = this.author;
+
       return filters;
     },
   },
-
+  watch: {
+    '$route.name': function (to, from) {
+      if (to !== from) this.navs += this.navs;
+    },
+  },
 };
 </script>
